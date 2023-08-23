@@ -1,0 +1,15 @@
+{
+  "name": "LOGIBUS Datapanel ESP32 esp-idf-v5.1 with full qualified names",
+  "version": "0.100",
+  "home_assistant_domain": "slim_player",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware_esp-idf-v5.1FC/bootloader.bin", "offset": 4096 },
+        { "path": "firmware_esp-idf-v5.1FC/partition-table.bin", "offset": 32768 },
+        { "path": "firmware_esp-idf-v5.1FC/Application.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
