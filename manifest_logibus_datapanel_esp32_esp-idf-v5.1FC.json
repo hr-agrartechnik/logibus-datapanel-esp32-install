@@ -1,5 +1,5 @@
 {
-  "name": "LOGIBUS Datapanel ESP32 esp-idf-v5.1 with full qualified names",
+  "name": "logiBUS Datapanel ESP32 esp-idf-v5.1 with full qualified names",
   "version": "0.100",
   "home_assistant_domain": "slim_player",
   "builds": [
